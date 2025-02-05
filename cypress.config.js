@@ -1,4 +1,3 @@
-const { should } = require("chai");
 const { defineConfig } = require("cypress");
 require("dotenv").config();
 
