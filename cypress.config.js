@@ -24,5 +24,6 @@ module.exports = defineConfig({
     html: true,
     json: true,
     embeddedScreenshots: true,
+
   },
 });
