@@ -3,6 +3,7 @@ require("dotenv").config();
 
 module.exports = defineConfig({
   e2e: {
+    screenshotOnRunFailure: false,
     env: {
       baseUrl: process.env.BASE_URL,
       usuario: process.env.USUARIO,
@@ -23,7 +24,5 @@ module.exports = defineConfig({
     overwrite: true,
     html: true,
     json: true,
-    embeddedScreenshots: true,
-
   },
 });
